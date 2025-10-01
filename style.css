@@ -1,0 +1,68 @@
+/*  */
+.css-index-body{
+    background-color: #101010;  
+}
+.css-index-main{
+    width: 20%;
+}
+
+
+/*  */
+.css-body{
+    display: flex;
+    background-color: #101010;
+    height: 98vh;
+    max-width: 99vw;
+    margin: 1vh 0.5vw;
+    justify-content: space-between;
+    font-size: clamp(0.4vh, 0.9vw, 1.8vh) !important;
+}
+.css-header{
+    display: flex;
+    position: fixed;
+    height: 98vh;
+    width: 19vw;
+    padding: 0;
+}
+.css-nav{
+    max-height: 98vh;
+    width: 19vw;
+}
+.css-main{
+    margin-left: 19.5vw !important;
+    width: 79.5vw;
+    max-width: 79.5vw;
+    height: auto;
+}
+.css-img-profile{
+    object-fit: cover;
+}
+#olhinho{
+    transition: all 0.5s;
+}
+.css-h1-size{
+    font-size: clamp(0.6vh, 1.8vw, 5vh) !important;
+}
+.css-h2-size{
+    font-size: clamp(0.5vh, 1.5vw, 4.5vh) !important;
+}
+.css-h3-size{
+    font-size: clamp(0.4vh, 1.2vw, 3.6vh) !important;
+}
+.css-h4-size{
+    font-size: clamp(0.4vh, 1.0vw, 3.6vh) !important;
+}
+.css-txt-size{
+    font-size: clamp(0.3vh, 0.8vw, 1.8vh) !important;
+}
+.css-row-folder{
+    padding: 0 !important;
+}
+.css-btn-folder{
+    border-color: transparent;
+    /* border-radius: 0; */
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
